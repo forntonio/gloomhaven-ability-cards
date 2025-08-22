@@ -4,7 +4,7 @@ import { CardComponent } from '@/app/_components/cards/Card';
 import type { Card } from '@/domain/cards.type';
 import { useCards, type Action } from '@/app/[selectedClass]/play/useCards';
 import useSecretary from '@/app/_components/secretary/useSecretary';
-import { useFrosthavenStore, type SelectedActions } from '@/stores/cards.store';
+import { useCardsStore, type SelectedActions } from '@/stores/cards.store';
 import { AnimatePresence } from 'motion/react';
 import { useShallow } from 'zustand/shallow';
 import BoardArea from '@/app/_components/layout/BoardArea';
@@ -36,7 +36,7 @@ export default function PlayedCards<X extends Card>() {
   const {
     selectedActions,
     setSelectedActions,
-  } = useFrosthavenStore(useShallow((store) => ({
+  } = useCardsStore(useShallow((store) => ({
     selectedActions: store.selectedActions,
     setSelectedActions: store.setSelectedActions,
   })))

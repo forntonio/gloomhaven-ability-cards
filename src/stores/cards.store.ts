@@ -69,7 +69,7 @@ export const initialState: AbilityCardsState = {
   selectedActions: [undefined, undefined],
 }
 
-export const useFrosthavenStore = create<AbilityCardsState & AbilityCardsActions>()(
+export const useCardsStore = create<AbilityCardsState & AbilityCardsActions>()(
   persist(
     (set) => ({
       ...initialState,
@@ -93,7 +93,7 @@ export const useFrosthavenStore = create<AbilityCardsState & AbilityCardsActions
       },
     }),
     {
-      name: 'fh-ability-cards',
+      name: 'ability-cards',
       storage: createJSONStorage(() => indexedDBStorage),
       partialize: (state) => ({
         level: state.level,

@@ -1,5 +1,5 @@
 import type { HiveCard } from '@/domain/hive/cards';
-import { useFrosthavenStore } from '@/stores/cards.store';
+import { useCardsStore } from '@/stores/cards.store';
 import { useMemo } from 'react';
 import { useShallow } from 'zustand/shallow';
 
@@ -8,7 +8,7 @@ export function useHiveMode() {
     states,
     updateStates,
     currentStateIndex,
-  } = useFrosthavenStore(useShallow((store) => ({
+  } = useCardsStore(useShallow((store) => ({
     states: store.states,
     updateStates: store.updateStates,
     currentStateIndex: store.currentStateIndex,

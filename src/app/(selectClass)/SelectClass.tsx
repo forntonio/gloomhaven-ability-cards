@@ -1,3 +1,4 @@
+"use client";
 import type { Card } from '@/domain/cards.type';
 import type { FrosthavenClass } from '@/domain/frosthaven-class.type';
 import Link from 'next/link';

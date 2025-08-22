@@ -4,7 +4,7 @@ import CardPile from '@/app/_components/cards/CardPile';
 import BoardArea from '@/app/_components/layout/BoardArea';
 import type { Card } from '@/domain/cards.type';
 import { useSelectCards } from '@/app/[selectedClass]/select/useSelectCards';
-import { useFrosthavenStore } from '@/stores/cards.store';
+import { useCardsStore } from '@/stores/cards.store';
 import { ClassContext } from '@/context/ClassContext';
 import { use } from 'react';
 
@@ -13,7 +13,7 @@ export default function AvailableCardsByLevel<X extends Card>({
 }: {
   level: X['level'];
 }) {
-  const availableCards = useFrosthavenStore((state) => state.availableCards as X[]);
+  const availableCards = useCardsStore((state) => state.availableCards as X[]);
   const currentClass = use(ClassContext);
   const { cards, selectCard } = useSelectCards<X>();
 

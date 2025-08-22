@@ -1,0 +1,282 @@
+[
+  {
+    "name": "barbaric instincts",
+    "level": 2,
+    "initiative": 12,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-barbaric-instincts.png"
+  },
+  {
+    "name": "blade dance",
+    "level": null,
+    "initiative": 29,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-blade-dance.png"
+  },
+  {
+    "name": "blinding sickle",
+    "level": 1,
+    "initiative": 87,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-blinding-sickle.png"
+  },
+  {
+    "name": "burn away the dark",
+    "level": 4,
+    "initiative": 31,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-burn-away-the-dark.png"
+  },
+  {
+    "name": "desert night",
+    "level": 1,
+    "initiative": 90,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-desert-night.png"
+  },
+  {
+    "name": "fierce brilliance",
+    "level": 6,
+    "initiative": 22,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-fierce-brilliance.png"
+  },
+  {
+    "name": "flame shroud",
+    "level": 1,
+    "initiative": 6,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-flame-shroud.png"
+  },
+  {
+    "name": "flaming sickle",
+    "level": 1,
+    "initiative": 63,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-flaming-sickle.png"
+  },
+  {
+    "name": "flying sickle",
+    "level": 6,
+    "initiative": 91,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-flying-sickle.png"
+  },
+  {
+    "name": "harvest sickle",
+    "level": 2,
+    "initiative": 52,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-harvest-sickle.png"
+  },
+  {
+    "name": "healing sands",
+    "level": 1,
+    "initiative": 32,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-healing-sands.png"
+  },
+  {
+    "name": "honorable fury",
+    "level": 9,
+    "initiative": 89,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-honorable-fury.png"
+  },
+  {
+    "name": "horns of the beast",
+    "level": 7,
+    "initiative": 8,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-horns-of-the-beast.png"
+  },
+  {
+    "name": "no fear",
+    "level": 8,
+    "initiative": 1,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-no-fear.png"
+  },
+  {
+    "name": "precision strike",
+    "level": null,
+    "initiative": 40,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-precision-strike.png"
+  },
+  {
+    "name": "prismatic sickle",
+    "level": 8,
+    "initiative": 70,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-prismatic-sickle.png"
+  },
+  {
+    "name": "radiant sickle",
+    "level": 4,
+    "initiative": 79,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-radiant-sickle.png"
+  },
+  {
+    "name": "sand devil",
+    "level": 5,
+    "initiative": 55,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-sand-devil.png"
+  },
+  {
+    "name": "shield of the desert",
+    "level": 1,
+    "initiative": 10,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-shield-of-the-desert.png"
+  },
+  {
+    "name": "shield spikes",
+    "level": 1,
+    "initiative": 41,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-shield-spikes.png"
+  },
+  {
+    "name": "shocking advance",
+    "level": 1,
+    "initiative": 14,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-shocking-advance.png"
+  },
+  {
+    "name": "soaring shield",
+    "level": 9,
+    "initiative": 11,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-soaring-shield.png"
+  },
+  {
+    "name": "strangling chain",
+    "level": 3,
+    "initiative": 19,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-strangling-chain.png"
+  },
+  {
+    "name": "swift strength",
+    "level": 1,
+    "initiative": 16,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-swift-strength.png"
+  },
+  {
+    "name": "twirling stabs",
+    "level": 1,
+    "initiative": 38,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-twirling-stabs.png"
+  },
+  {
+    "name": "vicious ballet",
+    "level": 7,
+    "initiative": 28,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-vicious-ballet.png"
+  },
+  {
+    "name": "warmth of the sun",
+    "level": 3,
+    "initiative": 23,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-warmth-of-the-sun.png"
+  },
+  {
+    "name": "warrior of the sun",
+    "level": null,
+    "initiative": 13,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-warrior-of-the-sun.png"
+  }
+]
