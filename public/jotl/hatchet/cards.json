@@ -1,0 +1,282 @@
+[
+  {
+    "name": "bombardment",
+    "level": 6,
+    "initiative": 54,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-bombardment.png"
+  },
+  {
+    "name": "brutalize",
+    "level": 7,
+    "initiative": 22,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-brutalize.png"
+  },
+  {
+    "name": "camaraderie",
+    "level": 8,
+    "initiative": 75,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-camaraderie.png"
+  },
+  {
+    "name": "care package",
+    "level": null,
+    "initiative": 30,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-care-package.png"
+  },
+  {
+    "name": "center mass",
+    "level": 1,
+    "initiative": 24,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-center-mass.png"
+  },
+  {
+    "name": "close cuts",
+    "level": 1,
+    "initiative": 25,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-close-cuts.png"
+  },
+  {
+    "name": "disorienting barrage",
+    "level": 1,
+    "initiative": 51,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-disorienting-barrage.png"
+  },
+  {
+    "name": "double throw",
+    "level": 1,
+    "initiative": 64,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-double-throw.png"
+  },
+  {
+    "name": "excessive force",
+    "level": 7,
+    "initiative": 47,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-excessive-force.png"
+  },
+  {
+    "name": "executioner's axe",
+    "level": 9,
+    "initiative": 79,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-executioners-axe.png"
+  },
+  {
+    "name": "extra lift",
+    "level": null,
+    "initiative": 21,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-extra-lift.png"
+  },
+  {
+    "name": "fancy hat",
+    "level": null,
+    "initiative": 12,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-fancy-hat.png"
+  },
+  {
+    "name": "fearsome efficiency",
+    "level": 3,
+    "initiative": 58,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-fearsome-efficiency.png"
+  },
+  {
+    "name": "follow through",
+    "level": 1,
+    "initiative": 39,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-follow-through.png"
+  },
+  {
+    "name": "heart seeker",
+    "level": 9,
+    "initiative": 32,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-heart-seeker.png"
+  },
+  {
+    "name": "overwatch",
+    "level": 4,
+    "initiative": 40,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-overwatch.png"
+  },
+  {
+    "name": "power pitch",
+    "level": 1,
+    "initiative": 60,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-power-pitch.png"
+  },
+  {
+    "name": "quick turnaround",
+    "level": 6,
+    "initiative": 11,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-quick-turnaround.png"
+  },
+  {
+    "name": "repeat shot",
+    "level": 2,
+    "initiative": 31,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-repeat-shot.png"
+  },
+  {
+    "name": "retrieval",
+    "level": 1,
+    "initiative": 46,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-retrieval.png"
+  },
+  {
+    "name": "ricochet",
+    "level": 2,
+    "initiative": 56,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-ricochet.png"
+  },
+  {
+    "name": "ripped from the flesh",
+    "level": 4,
+    "initiative": 20,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-ripped-from-the-flesh.png"
+  },
+  {
+    "name": "second wind",
+    "level": 1,
+    "initiative": 18,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-second-wind.png"
+  },
+  {
+    "name": "sharpened blades",
+    "level": 3,
+    "initiative": 44,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-sharpened-blades.png"
+  },
+  {
+    "name": "shrapnel",
+    "level": 8,
+    "initiative": 37,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-shrapnel.png"
+  },
+  {
+    "name": "stopping power",
+    "level": 1,
+    "initiative": 35,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-stopping-power.png"
+  },
+  {
+    "name": "the favorite",
+    "level": 1,
+    "initiative": 17,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-the-favorite.png"
+  },
+  {
+    "name": "the new favorite",
+    "level": 5,
+    "initiative": 15,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-the-new-favorite.png"
+  }
+]

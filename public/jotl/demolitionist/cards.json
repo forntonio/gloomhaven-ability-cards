@@ -1,0 +1,272 @@
+[
+  {
+    "name": "collateral damage",
+    "level": 9,
+    "initiative": 15,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-collateral-damage.png"
+  },
+  {
+    "name": "crash protocol",
+    "level": 2,
+    "initiative": 74,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-crash-protocol.png"
+  },
+  {
+    "name": "crushing weight",
+    "level": 1,
+    "initiative": 22,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-crushing-weight.png"
+  },
+  {
+    "name": "drill fist",
+    "level": 6,
+    "initiative": 62,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-drill-fist.png"
+  },
+  {
+    "name": "dust cloud",
+    "level": 6,
+    "initiative": 15,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-dust-cloud.png"
+  },
+  {
+    "name": "explode",
+    "level": 1,
+    "initiative": 28,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-explode.png"
+  },
+  {
+    "name": "explosive blitz",
+    "level": 1,
+    "initiative": 19,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-explosive-blitz.png"
+  },
+  {
+    "name": "extra fuel",
+    "level": 4,
+    "initiative": 17,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-extra-fuel.png"
+  },
+  {
+    "name": "fire bombs",
+    "level": 3,
+    "initiative": 24,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-fire-bombs.png"
+  },
+  {
+    "name": "gut punch",
+    "level": 8,
+    "initiative": 26,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-gut-punch.png"
+  },
+  {
+    "name": "implode",
+    "level": 1,
+    "initiative": 88,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-implode.png"
+  },
+  {
+    "name": "insult to injury",
+    "level": 7,
+    "initiative": 64,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-insult-to-injury.png"
+  },
+  {
+    "name": "knock out the support",
+    "level": 1,
+    "initiative": 20,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-knock-out-the-support.png"
+  },
+  {
+    "name": "level",
+    "level": null,
+    "initiative": 61,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-level.png"
+  },
+  {
+    "name": "lobbed charge",
+    "level": null,
+    "initiative": 52,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-lobbed-charge.png"
+  },
+  {
+    "name": "mech suit",
+    "level": 5,
+    "initiative": 80,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-mech-suit.png"
+  },
+  {
+    "name": "micro missiles",
+    "level": 7,
+    "initiative": 16,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-micro-missiles.png"
+  },
+  {
+    "name": "nowhere to run",
+    "level": 3,
+    "initiative": 39,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-nowhere-to-run.png"
+  },
+  {
+    "name": "one-two punch",
+    "level": 1,
+    "initiative": 66,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-one-two-punch.png"
+  },
+  {
+    "name": "piston punch",
+    "level": 1,
+    "initiative": 42,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-piston-punch.png"
+  },
+  {
+    "name": "remote detonation",
+    "level": 4,
+    "initiative": 63,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-remote-detonation.png"
+  },
+  {
+    "name": "robotic enhancement",
+    "level": 2,
+    "initiative": 33,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-robotic-enhancement.png"
+  },
+  {
+    "name": "rubble",
+    "level": null,
+    "initiative": 55,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-rubble.png"
+  },
+  {
+    "name": "the bigger one",
+    "level": 8,
+    "initiative": 31,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-the-bigger-one.png"
+  },
+  {
+    "name": "the big one",
+    "level": 1,
+    "initiative": 37,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-the-big-one.png"
+  },
+  {
+    "name": "wholesale destruction",
+    "level": 9,
+    "initiative": 34,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-wholesale-destruction.png"
+  },
+  {
+    "name": "windup",
+    "level": 1,
+    "initiative": 77,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-windup.png"
+  }
+]

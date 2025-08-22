@@ -4,14 +4,14 @@ import { useSelectCards } from '@/app/[selectedClass]/select/useSelectCards';
 import ClassIcon from '@/app/_components/class/ClassIcon';
 import { ClassContext } from '@/context/ClassContext';
 import { classNameToURI } from '@/domain/frosthaven-class';
-import { useFrosthavenStore } from '@/stores/cards.store';
+import { useCardsStore } from '@/stores/cards.store';
 import Link from 'next/link';
 import { use } from 'react';
 import { useShallow } from 'zustand/shallow';
 
 export default function SelectCardsHeader() {
   const fhClass = use(ClassContext);
-  const { level, setLevel } = useFrosthavenStore(useShallow((state) => ({
+  const { level, setLevel } = useCardsStore(useShallow((state) => ({
     level: state.level,
     setLevel: state.setLevel,
   })));

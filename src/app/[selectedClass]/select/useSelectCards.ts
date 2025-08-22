@@ -4,7 +4,7 @@ import { ClassContext } from '@/context/ClassContext';
 import type { Card } from '@/domain/cards.type';
 import { type GeminateCard } from '@/domain/geminate/cards';
 import { geminate, isGeminateCards } from '@/domain/geminate/class';
-import { useFrosthavenStore } from '@/stores/cards.store';
+import { useCardsStore } from '@/stores/cards.store';
 import { use } from 'react';
 import { useShallow } from 'zustand/shallow';
 
@@ -20,7 +20,7 @@ export function useSelectCards<X extends Card>() {
     cards,
     selectCards,
     enhanceCard,
-  } = useFrosthavenStore(useShallow((state) => ({
+  } = useCardsStore(useShallow((state) => ({
     cards: state.cards as X[],
     selectCards: state.selectCards,
     validateCardSelection: state.validateCardSelection,

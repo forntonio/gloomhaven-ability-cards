@@ -1,0 +1,292 @@
+[
+  {
+    "name": "black boon",
+    "level": 1,
+    "initiative": 43,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-black-boon.png"
+  },
+  {
+    "name": "close to the abyss",
+    "level": 1,
+    "initiative": 72,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-close-to-the-abyss.png"
+  },
+  {
+    "name": "cold embrace",
+    "level": null,
+    "initiative": 71,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-cold-embrace.png"
+  },
+  {
+    "name": "commanding presence",
+    "level": 3,
+    "initiative": 75,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-commanding-presence.png"
+  },
+  {
+    "name": "crushing cold",
+    "level": 2,
+    "initiative": 86,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-crushing-cold.png"
+  },
+  {
+    "name": "empowered link",
+    "level": 8,
+    "initiative": 59,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-empowered-link.png"
+  },
+  {
+    "name": "eye of the void",
+    "level": 9,
+    "initiative": 19,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-eye-of-the-void.png"
+  },
+  {
+    "name": "freeze the soul",
+    "level": 1,
+    "initiative": 58,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-freeze-the-soul.png"
+  },
+  {
+    "name": "gift of the void",
+    "level": 1,
+    "initiative": 89,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-gift-of-the-void.png"
+  },
+  {
+    "name": "give and take",
+    "level": 2,
+    "initiative": 21,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-give-and-take.png"
+  },
+  {
+    "name": "grasp of doom",
+    "level": 1,
+    "initiative": 36,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-grasp-of-doom.png"
+  },
+  {
+    "name": "hateful blast",
+    "level": 7,
+    "initiative": 29,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-hateful-blast.png"
+  },
+  {
+    "name": "lull into oblivion",
+    "level": 8,
+    "initiative": 11,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-lull-into-oblivion.png"
+  },
+  {
+    "name": "lure of the void",
+    "level": 1,
+    "initiative": 67,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-lure-of-the-void.png"
+  },
+  {
+    "name": "master influence",
+    "level": 1,
+    "initiative": 83,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-master-influence.png"
+  },
+  {
+    "name": "possessed by fate",
+    "level": 9,
+    "initiative": 66,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-possessed-by-fate.png"
+  },
+  {
+    "name": "resigned frenzy",
+    "level": null,
+    "initiative": 26,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-resigned-frenzy.png"
+  },
+  {
+    "name": "sap warmth",
+    "level": null,
+    "initiative": 59,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-sap-warmth.png"
+  },
+  {
+    "name": "savage instinct",
+    "level": 4,
+    "initiative": 51,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-savage-instinct.png"
+  },
+  {
+    "name": "signs of the void",
+    "level": 1,
+    "initiative": 15,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-signs-of-the-void.png"
+  },
+  {
+    "name": "spirit hunger",
+    "level": 7,
+    "initiative": 68,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-spirit-hunger.png"
+  },
+  {
+    "name": "stand fast",
+    "level": 5,
+    "initiative": 90,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-stand-fast.png"
+  },
+  {
+    "name": "suggestion",
+    "level": 1,
+    "initiative": 23,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-suggestion.png"
+  },
+  {
+    "name": "surge of power",
+    "level": 6,
+    "initiative": 81,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-surge-of-power.png"
+  },
+  {
+    "name": "taunting fate",
+    "level": 3,
+    "initiative": 13,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-taunting-fate.png"
+  },
+  {
+    "name": "the last journey",
+    "level": 4,
+    "initiative": 38,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-the-last-journey.png"
+  },
+  {
+    "name": "turn out the lights",
+    "level": 1,
+    "initiative": 49,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-turn-out-the-lights.png"
+  },
+  {
+    "name": "wicked scratch",
+    "level": 1,
+    "initiative": 68,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-wicked-scratch.png"
+  },
+  {
+    "name": "withering conviction",
+    "level": 6,
+    "initiative": 44,
+    "actions": {
+      "top": "discard",
+      "bottom": "discard"
+    },
+    "file": "jl-withering-conviction.png"
+  }
+]

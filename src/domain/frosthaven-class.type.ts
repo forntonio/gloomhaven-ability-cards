@@ -18,7 +18,11 @@ export type FrosthavenClassNames =
   | 'Pyroclast'
   | 'Shattersong'
   | 'Snowdancer'
-  | 'Trapper';
+  | 'Trapper'
+  | 'Red Guard'
+  | 'Hatchet'
+  | 'Demolitionist'
+  | 'Voidwarden';
 
 export interface FrosthavenClass<X extends Card> {
   name: FrosthavenClassNames;

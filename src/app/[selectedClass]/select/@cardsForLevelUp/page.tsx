@@ -1,12 +1,12 @@
 'use client';
 
-import { useFrosthavenStore } from '@/stores/cards.store';
+import { useCardsStore } from '@/stores/cards.store';
 import { AnimatePresence, domAnimation, LazyMotion } from 'motion/react';
 import * as m from 'motion/react-m';
 import AvailableCardsByLevel from './AvailableCardsByLevel';
 
 export default function CardsForLevelUpPage() {
-  const level = useFrosthavenStore((state) => state.level);
+  const level = useCardsStore((state) => state.level);
 
   return <LazyMotion features={domAnimation}>
     <AnimatePresence>

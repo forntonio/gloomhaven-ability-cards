@@ -1,5 +1,5 @@
 import type { CardStatus, Card } from '@/domain/cards.type';
-import { useFrosthavenStore } from '@/stores/cards.store';
+import { useCardsStore } from '@/stores/cards.store';
 import { useMemo } from 'react';
 import { useShallow } from 'zustand/shallow';
 
@@ -27,7 +27,7 @@ export function useCards<X extends Card>() {
     updateStates,
     currentStateIndex,
     setStateIndex,
-  } = useFrosthavenStore(useShallow((store) => ({
+  } = useCardsStore(useShallow((store) => ({
     states: store.states,
     updateStates: store.updateStates,
     currentStateIndex: store.currentStateIndex,

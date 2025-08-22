@@ -8,7 +8,7 @@ import type { HiveCard } from '@/domain/hive/cards';
 
 function getClass<X extends Card>() {
   const selectedClassName = classURIToName(document.location.pathname.split('/')[1] as FrosthavenClass<X>['name']);
-  return frosthavenClasses.find(({ name }) => name === selectedClassName) as FrosthavenClass<X>;
+  return frosthavenClasses.find(({ name }) => name === selectedClassName) as FrosthavenClass<X> | undefined;
 }
 
 function departializeCardForClass<X extends HiveCard>(fhClass: FrosthavenClass<X>) {
