@@ -99,6 +99,7 @@ export function CardComponent<X extends Card>({
               unoptimized
               onError={() => setHasImageError(true)}
             />}
+
       </button>
       {onCloseCard && <button
         aria-label='remove card'
