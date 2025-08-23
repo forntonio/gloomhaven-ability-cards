@@ -7,7 +7,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-collateral-damage.png"
+  "file": "jl-collateral-damage.webp"
   },
   {
     "name": "crash protocol",
@@ -17,7 +17,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-crash-protocol.png"
+  "file": "jl-crash-protocol.webp"
   },
   {
     "name": "crushing weight",
@@ -27,7 +27,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-crushing-weight.png"
+  "file": "jl-crushing-weight.webp"
   },
   {
     "name": "drill fist",
@@ -37,7 +37,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-drill-fist.png"
+  "file": "jl-drill-fist.webp"
   },
   {
     "name": "dust cloud",
@@ -47,7 +47,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-dust-cloud.png"
+  "file": "jl-dust-cloud.webp"
   },
   {
     "name": "explode",
@@ -57,7 +57,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-explode.png"
+  "file": "jl-explode.webp"
   },
   {
     "name": "explosive blitz",
@@ -67,7 +67,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-explosive-blitz.png"
+  "file": "jl-explosive-blitz.webp"
   },
   {
     "name": "extra fuel",
@@ -77,7 +77,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-extra-fuel.png"
+  "file": "jl-extra-fuel.webp"
   },
   {
     "name": "fire bombs",
@@ -87,7 +87,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-fire-bombs.png"
+  "file": "jl-fire-bombs.webp"
   },
   {
     "name": "gut punch",
@@ -97,7 +97,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-gut-punch.png"
+  "file": "jl-gut-punch.webp"
   },
   {
     "name": "implode",
@@ -107,7 +107,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-implode.png"
+  "file": "jl-implode.webp"
   },
   {
     "name": "insult to injury",
@@ -117,7 +117,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-insult-to-injury.png"
+  "file": "jl-insult-to-injury.webp"
   },
   {
     "name": "knock out the support",
@@ -127,7 +127,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-knock-out-the-support.png"
+  "file": "jl-knock-out-the-support.webp"
   },
   {
     "name": "level",
@@ -137,7 +137,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-level.png"
+  "file": "jl-level.webp"
   },
   {
     "name": "lobbed charge",
@@ -147,7 +147,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-lobbed-charge.png"
+  "file": "jl-lobbed-charge.webp"
   },
   {
     "name": "mech suit",
@@ -157,7 +157,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-mech-suit.png"
+  "file": "jl-mech-suit.webp"
   },
   {
     "name": "micro missiles",
@@ -167,7 +167,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-micro-missiles.png"
+  "file": "jl-micro-missiles.webp"
   },
   {
     "name": "nowhere to run",
@@ -177,7 +177,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-nowhere-to-run.png"
+  "file": "jl-nowhere-to-run.webp"
   },
   {
     "name": "one-two punch",
@@ -187,7 +187,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-one-two-punch.png"
+  "file": "jl-one-two-punch.webp"
   },
   {
     "name": "piston punch",
@@ -197,7 +197,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-piston-punch.png"
+  "file": "jl-piston-punch.webp"
   },
   {
     "name": "remote detonation",
@@ -207,7 +207,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-remote-detonation.png"
+  "file": "jl-remote-detonation.webp"
   },
   {
     "name": "robotic enhancement",
@@ -217,7 +217,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-robotic-enhancement.png"
+  "file": "jl-robotic-enhancement.webp"
   },
   {
     "name": "rubble",
@@ -227,7 +227,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-rubble.png"
+  "file": "jl-rubble.webp"
   },
   {
     "name": "the bigger one",
@@ -237,7 +237,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-the-bigger-one.png"
+  "file": "jl-the-bigger-one.webp"
   },
   {
     "name": "the big one",
@@ -247,7 +247,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-the-big-one.png"
+  "file": "jl-the-big-one.webp"
   },
   {
     "name": "wholesale destruction",
@@ -257,7 +257,7 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-wholesale-destruction.png"
+  "file": "jl-wholesale-destruction.webp"
   },
   {
     "name": "windup",
@@ -267,6 +267,6 @@
       "top": "discard",
       "bottom": "discard"
     },
-    "file": "jl-windup.png"
+  "file": "jl-windup.webp"
   }
 ]
