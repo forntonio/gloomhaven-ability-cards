@@ -15,7 +15,8 @@ export default function ClassSelection({
 }) {
   const game = useGameStore((s) => s.game);
   const classes = game === 'Jaws of the Lion' ? jotlClasses : frosthavenClasses;
-  const logo = game === 'Jaws of the Lion' ? '/jotl/jotl-logo.webp' : '/fh-frosthaven-logo.webp';
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+  const logo = `${basePath}${game === 'Jaws of the Lion' ? '/jotl/jotl-logo.webp' : '/fh-frosthaven-logo.webp'}`;
   return (
     <div className='flex flex-col gap-16 p-16 place-items-center'>
       <header className='flex flex-col items-center gap-4'>

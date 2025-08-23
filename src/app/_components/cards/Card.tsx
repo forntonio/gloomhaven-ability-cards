@@ -26,6 +26,7 @@ export function CardComponent<X extends Card>({
   const innerRef = useRef<HTMLDivElement>(null);
   const [isActionWheelOpen, setIsActionWheelOpen] = useState(false);
   const [hasImageError, setHasImageError] = useState(false);
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
   const onClickCard = () => {
     if (actions.length === 0) return;
@@ -92,7 +93,7 @@ export function CardComponent<X extends Card>({
           : <Image
               className='shadow-card shadow-gray-950/80'
               {...(mapName ? { useMap: `#${mapName}` } : {})}
-              src={card.path}
+              src={`${basePath}${card.path}`}
               alt={`card ${card.name}`}
               width={143}
               height={200}
