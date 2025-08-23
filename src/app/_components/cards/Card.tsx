@@ -90,6 +90,7 @@ export function CardComponent<X extends Card>({
           alt={`card ${card.name}`}
           width={143}
           height={200}
+          unoptimized
         />
       </button>
       {onCloseCard && <button
