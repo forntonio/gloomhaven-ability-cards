@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
   assetPrefix: basePath || undefined,
   images: {
     minimumCacheTTL: 60 * 60 * 24 * 30,
+    unoptimized: true,
   },
   experimental: {
     reactCompiler: true,

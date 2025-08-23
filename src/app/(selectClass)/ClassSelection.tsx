@@ -19,7 +19,15 @@ export default function ClassSelection({
   return (
     <div className='flex flex-col gap-16 p-16 place-items-center'>
       <header className='flex flex-col items-center gap-4'>
-        <Image priority loading='eager' src={logo} alt={`${game} logo`} width={600} height={87} />
+        <Image
+          priority
+          loading='eager'
+          src={logo}
+          alt={`${game} logo`}
+          width={600}
+          height={161}
+          unoptimized
+        />
         <GameSelector />
       </header>
       <h1 className='text-2xl font-bold text-center text-black hidden'>Select your class</h1>

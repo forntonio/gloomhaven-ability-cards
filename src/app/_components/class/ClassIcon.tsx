@@ -14,5 +14,6 @@ export default function ClassIcon({
     src={path}
     alt={name}
     {...iconSize}
+    unoptimized
   />;
 }
