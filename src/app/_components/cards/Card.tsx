@@ -25,6 +25,7 @@ export function CardComponent<X extends Card>({
 }): ReactNode {
   const innerRef = useRef<HTMLDivElement>(null);
   const [isActionWheelOpen, setIsActionWheelOpen] = useState(false);
+  const [hasImageError, setHasImageError] = useState(false);
 
   const onClickCard = () => {
     if (actions.length === 0) return;
@@ -83,15 +84,21 @@ export function CardComponent<X extends Card>({
         autoFocus={autoFocus}
         aria-label={cardLabel}
         onClick={onClickCard}>
-        <Image
-          className='shadow-card shadow-gray-950/80'
-          {...(mapName ? { useMap: `#${mapName}` } : {})}
-          src={card.path}
-          alt={`card ${card.name}`}
-          width={143}
-          height={200}
-          unoptimized
-        />
+        {hasImageError
+          ? <div
+              className='shadow-card shadow-gray-950/80 flex items-center justify-center bg-white text-xs text-black border border-solid border-gray-400'
+              style={{ width: 143, height: 200 }}
+            >{card.name}</div>
+          : <Image
+              className='shadow-card shadow-gray-950/80'
+              {...(mapName ? { useMap: `#${mapName}` } : {})}
+              src={card.path}
+              alt={`card ${card.name}`}
+              width={143}
+              height={200}
+              unoptimized
+              onError={() => setHasImageError(true)}
+            />}
       </button>
       {onCloseCard && <button
         aria-label='remove card'
