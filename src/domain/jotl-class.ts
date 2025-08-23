@@ -1,54 +1,37 @@
 import type { Card } from './cards.type';
-import type { FrosthavenClass } from './frosthaven-class.type';
+import type { FrosthavenClass, FrosthavenClassNames } from './frosthaven-class.type';
+
+import demolitionistData from '../../public/jotl/demolitionist/cards.json' assert { type: 'json' };
+import hatchetData from '../../public/jotl/hatchet/cards.json' assert { type: 'json' };
+import redGuardData from '../../public/jotl/red-guard/cards.json' assert { type: 'json' };
+import voidwardenData from '../../public/jotl/voidwarden/cards.json' assert { type: 'json' };
 
 interface StoredCard extends Omit<Card, 'status' | 'path'> {
   file: string;
 }
 
-function capitalize(word: string) {
-  return word.charAt(0).toUpperCase() + word.slice(1);
-}
-
-function loadCards(fs: typeof import('fs'), path: typeof import('path'), dir: string, classSlug: string): Card[] {
-  const dataPath = path.join(dir, 'cards.json');
-  if (!fs.existsSync(dataPath)) {
-    return [];
-  }
-  const raw = JSON.parse(fs.readFileSync(dataPath, 'utf-8')) as StoredCard[];
-  return raw.map((card) => ({
+function toCards(data: StoredCard[], classSlug: string): Card[] {
+  return data.map((card) => ({
     ...card,
     status: 'inHand',
     path: `/jotl/${classSlug}/abilities/${card.file}`,
   }));
 }
 
-export const jotlClasses: FrosthavenClass<Card>[] = (() => {
-  if (typeof window !== 'undefined') {
-    return [];
-  }
-  try {
-    // eslint-disable-next-line @typescript-eslint/no-require-imports
-    const fs = require('fs') as typeof import('fs');
-    // eslint-disable-next-line @typescript-eslint/no-require-imports
-    const path = require('path') as typeof import('path');
-    const base = path.join(process.cwd(), 'public', 'jotl');
-    if (!fs.existsSync(base)) {
-      return [];
-    }
-    return fs.readdirSync(base)
-      .filter((name: string) => fs.lstatSync(path.join(base, name)).isDirectory())
-      .map((classSlug: string) => {
-        const classDir = path.join(base, classSlug);
-        const name = classSlug.split('-').map(capitalize).join(' ');
-        return {
-          name,
-          handSize: 10,
-          path: `/jotl/${classSlug}/icon.webp`,
-          iconSize: { width: 200, height: 200 },
-          cards: loadCards(fs, path, classDir, classSlug),
-        } as FrosthavenClass<Card>;
-      });
-  } catch {
-    return [];
-  }
-})();
+function createClass(name: FrosthavenClassNames, slug: string, data: StoredCard[]): FrosthavenClass<Card> {
+  return {
+    name,
+    handSize: 10,
+    path: `/jotl/${slug}/icon.webp`,
+    iconSize: { width: 200, height: 200 },
+    cards: toCards(data, slug),
+  };
+}
+
+export const jotlClasses: FrosthavenClass<Card>[] = [
+  createClass('Demolitionist', 'demolitionist', demolitionistData as StoredCard[]),
+  createClass('Hatchet', 'hatchet', hatchetData as StoredCard[]),
+  createClass('Red Guard', 'red-guard', redGuardData as StoredCard[]),
+  createClass('Voidwarden', 'voidwarden', voidwardenData as StoredCard[]),
+];
+
