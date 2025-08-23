@@ -117,3 +117,4 @@ export function CardComponent<X extends Card>({
     </m.div>
   </LazyMotion>;
 }
+
